@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "denisniwemugisha",
-    "password": null,
+    "username": "postgres",
+    "password": "postgres",
     "database": "dockerdb",
-    "host": "127.0.0.1",
+    "host": "db",
     "dialect": "postgres"
   },
   "test": {

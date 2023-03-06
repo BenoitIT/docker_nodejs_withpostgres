@@ -1,0 +1,23 @@
+version: '20.10.23'
+
+services:
+  server:
+    build: .
+    ports:
+      - '8070:8070'
+  db:
+    image: 'postgres'
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_PASSWORD: 'postgres'
+      POSTGRES_USER: 'postgres'
+      POSTGRES_DB: 'dockerdb'
+    volumes: 
+        - data:/var/lib/postgresql/data
+volumes:
+  data:
+
+
+
+  

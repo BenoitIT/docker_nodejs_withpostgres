@@ -13,4 +13,4 @@ app.get('/api/post/:id',readOnePost);
 app.delete('/api/users/:id',deleteUser);
 app.patch('/api/users/:id',updateUser);
 connectDb();
-app.listen(3000,()=>console.log('listening on port'));
+app.listen(8070,()=>console.log('listening on port'));

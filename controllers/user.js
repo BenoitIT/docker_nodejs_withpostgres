@@ -1,7 +1,6 @@
 const { User } = require('../models');
 const { Post } = require('../models');
 const post = require('../models/post');
-
 // create a new user
 const createUser = async (req, res) => {
   try {
